@@ -36,11 +36,35 @@ public class ExIfElse {
         } else if (resultadoImc >= 35 && resultadoImc <= 39) {
             System.out.println("Obesidade grau II severa ");
         } else {
-            System.out.println("Obesidade III (Mórbido");
+            System.out.println("Obesidade grau III (Mórbido");
         }
 
 
         //3
+        System.out.println("** Informando par e ímpar **");
+        System.out.printf("Digite o primeiro número: ");
+        int primeiroNumero = scanner.nextInt();
+
+        System.out.printf("Digite o segundo número: ");
+        int segundoNumero = scanner.nextInt();
+
+        System.out.println("Escolha");
+        int opcao = scanner.nextInt();
+
+        System.out.println("Opção 1 - Ímpar");
+        System.out.println("Opção 2 - Par");
+        switch (opcao){
+            case 1:
+                
+                break;
+            case 2:
+
+                break;
+            default:
+                System.out.println("Opção inválida");
+        }
+
+
 
 
     }
